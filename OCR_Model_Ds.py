@@ -248,6 +248,18 @@ model.save('model.h5')
 
 # In[ ]:
 
+# This line of code saves a machine learning model to a file named "model.h5" in the current directory using the Keras library.
+
+# The ".h5" extension is used to indicate that the file is in the Hierarchical Data Format (HDF5) format, which is a popular file format for storing large numerical arrays and metadata.
+
+# Once the model is saved, it can be reloaded later using the Keras load_model() function to make predictions on new data without having to retrain the model.
+
+# Here's an example of how to load the saved model:
+
+# from keras.models import load_model
+
+# loaded_model = load_model('model.h5')
+
 
 
 
